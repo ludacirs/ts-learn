@@ -1,6 +1,24 @@
 {
+  "name": "ts-learn",
+  "description": "TypeScript 공부의 필요성을 느껴서 [TypeScript-Handbook](https://typescript-kr.github.io/) 를 보며 공부한 기록들 입니다",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ludacirs/ts-learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ludacirs/ts-learn/issues"
+  },
+  "homepage": "https://github.com/ludacirs/ts-learn#readme",
   "dependencies": {
-    "parcel": "^1.12.4"
+    "parcel": "^2.0.0"
   },
   "devDependencies": {
     "typescript": "^4.2.3"
